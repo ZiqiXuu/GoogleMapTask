@@ -1,0 +1,42 @@
+button {
+    background-color: white;
+    color: #333;
+    padding: 2px;
+    margin: 2px;
+    border-radius: 2px;
+    border-width: 1px;
+    font-size: 14px;
+}
+button:hover{
+    cursor: pointer;
+}
+input:focus{
+    outline:none;
+}
+
+/* 隐藏默认复选框 */
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+/* 定义自定义复选框的样式 */
+input[type="checkbox"]::before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #999;
+    background-color: #fff;
+}
+
+/* 定义选中状态下的自定义复选框样式 */
+input[type="checkbox"]:checked::before {
+    background-color: #007bff;
+}
+
+/* 鼠标悬停时的自定义复选框样式 */
+input[type="checkbox"]:hover::before {
+    border-color: #007bff;
+}
