@@ -1,0 +1,30 @@
+{
+  "name": "google-map-task",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@ant-design-vue/use": "^0.0.1-alpha.10",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-brands-svg-icons": "^6.4.0",
+    "@fortawesome/free-regular-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/vue-fontawesome": "^3.0.3",
+    "@googlemaps/js-api-loader": "^1.15.2",
+    "vue": "^3.3.2",
+    "vue-google-autocomplete": "^1.1.4",
+    "vue2-google-maps": "^0.10.7",
+    "vuetify": "^3.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "eslint": "^8.39.0",
+    "eslint-plugin-vue": "^9.11.0",
+    "vite": "^4.3.5"
+  }
+}
